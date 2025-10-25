@@ -1,0 +1,23 @@
+[project]
+name = "goit-algo2-hw-06"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "nickolasz",email = "nickolasz@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel (>=6.30.1,<7.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "mmh3 (>=5.2.0,<6.0.0)",
+    "pandas (>=2.3.3,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api" 
